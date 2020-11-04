@@ -1,0 +1,49 @@
+div.fixed {
+    position: fixed;
+    left : 0px;
+    top : 500px;
+    width: 300px;
+    border: 3px solid green;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    width: 200px;
+    position: relative;
+    top: 0;
+    left: 80%;
+    border: 1px black solid;
+  }
+  .image2 {
+    position: absolute;
+    top: 325px;
+    left: 85%;
+  }
+
+.personalInfo
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    color : blue;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:white; color: blue; width: 50%;}
+    100% {background-color:pink; color: black; width: 100%;}
+}
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:white; color: blue; width: 50%;}
+    100% {background-color:pink; color: black; width: 100%;}
+}
