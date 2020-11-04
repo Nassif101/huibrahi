@@ -1,9 +1,12 @@
 function Generatepassword()
 {
+	///asdad
     var name = "jalal";
-    var randomNumber = Math.floor((Math.random() * 100) + 1);
+    var randomNumber = Math.floor((Math.random() * 100) + 1); //Cinne
     var specialChar = "&";
-    var pass = name + randomNumber + specialChar;
+	
+	//test
+    var pass = name + randomNumber ++sadasa+ specialChar + uuuu;
     if (confirm("Password: "+ pass)) {
         document.getElementById("passfield").value = pass;        
     }
